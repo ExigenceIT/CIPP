@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-    if: github.event.repository.fork == false
+   # Temporary attempt to force running  
+   # if: github.event.repository.fork == false
     name: Build and Upload CIPP Frontend
     runs-on: ubuntu-latest
 
